@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color:color: #555;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: right;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project img {
+    display: block;
+    margin: auto;
+}
+.project img {
+    float: right;
+}
+img {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+img {
+    border: 3px solid #ddd;
+    padding: 5px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+ 
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+h2 {
+    font-size: 24px;
+    color: #555;
+
+}
+
+  
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+.project img {
+    margin-right: 20px;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+a:hover {
+    color: #0056b3;
+}
+
+header {
+    	background-color: purple;
+    	color: white;
+    	padding: 20px;
+	border-radius: 20px;
+}
+
+section {
+    background-color: #FFC0CB; /* Baby pink */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Validation: Green for valid, Red for invalid */
+input:valid, textarea:valid {
+    border-color: green;
+}
+
+input:invalid, textarea:invalid {
+    border-color: red;
+}
+
+/* Button styling */
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#home p {
+    flex: 1; /* Allows paragraph to take up available space */
+    text-align: right; /* Ensures text is aligned to the right */
+}
+
+
+footer {
+    	background-color: purple; 
+    	color: white;
+    	padding: 20px;
+    	text-align: center;
+    	position: relative;
+    	width: 100%;
+    	bottom: 0;
+	border-radius: 20px;
+}
+
+h2 {
+  color: purple; /* You can use color names, HEX, RGB, or HSL values */
+}
+
+h3 {
+  color: #FF69B4; /* Light pink in HEX */
+}
+
+img {
+  border-radius: 20px; /* Adjust for softer or sharper edges */
+}
+
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divides into two equal sections */
+  gap: 20px; /* Adds space between the image and content */
+  align-items: center; /* Aligns both items vertically */
+}
+
+.home-img {
+  width: 100%; /* Makes the image take full space in its grid section */
+  border-radius: 15px; /* Optional: Adds rounded corners */
+}
+
+.home-content {
+  text-align: left; /* Aligns text neatly */
+  padding: 20px;
+}
+
+
+.home-content {
+  text-align: justify;
+}
+
+
+.about-me p {
+  writing-mode: vertical-rl; /* Text flows top to bottom, right to left */
+  text-orientation: upright; /* Keeps letters readable */
+}
+
+
+figcaption {
+  color: gray; /* Optional: Make it visually distinct */
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffffff; /* Light background */
+  color: #222222; /* Dark text for contrast */
+  font-size: 18px; /* Readable font size */
+}
+
+h2, h3 {
+  font-size: 22px; /* Slightly larger headers */
+}
+
+button:focus, a:focus {
+  outline: 3px solid #ffb6c1; /* Highlight focus state */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+
+
+.home-content {
+  text-align: justify;
+  line-height: 1.6; /* Adjusts spacing between lines */
+  word-spacing: 2px; /* Adds a slight gap between words */
+}
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
